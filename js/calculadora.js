@@ -20,8 +20,8 @@ botonOperacion.forEach( function(boton){
 });
 
 botonIgual.addEventListener('click', function(){
-        calcular();
-        actualizarDisplay();
+    calcular();
+    actualizarDisplay();
 });
 
 botonBorrar.addEventListener('click', function(){
@@ -77,5 +77,4 @@ function limpiar(){
 function actualizarDisplay(){
     result.value = operacionActual;
 }
-
 limpiar();
