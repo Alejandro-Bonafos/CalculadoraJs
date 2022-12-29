@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/img/luces-neon.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+
+
+.contenedor-calculadora{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto)repeat(5,100px);
+    margin-top: 50px;
+    
+}
+
+.contenedor-calculadora button{
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(247, 247, 247, 0.753);
+    border: 1px solid rgba(161, 138, 138, 0.534);
+    outline: none;
+    background-color: rgba(99, 52, 138, 0.452);
+    border-radius: 5px;
+    
+}
+
+.contenedor-calculadora button:hover{
+    background-color: rgba(155, 218, 202, 0.603);
+}
+
+.barra{
+    grid-column: 1/ -1;
+    background-color: rgba(212, 95, 153, 0.308);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 10px;
+    
+}
+
+.barra input{
+    color: rgb(0, 0, 0);
+    font-size: 1.85rem;
+    text-align: right;
+    background-color: rgba(252, 255, 255, 0.356);
+  
+}
+
+footer{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+footer h3{
+    font-size: 1.3rem;
+    color: rgba(48, 48, 47, 0.863);
+    margin-top:30px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.418);
+    
+
+}
