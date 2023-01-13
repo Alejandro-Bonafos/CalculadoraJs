@@ -3,7 +3,7 @@ body{
     margin: 0;
     background-image: url(../img/luces-neon.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: cover;
 
 }
 
@@ -64,6 +64,7 @@ footer{
     justify-content: center;
     background-color: transparent;
 }
+
 footer h3{
     font-size: 1.3rem;
     color: rgba(48, 48, 47, 0.863);
@@ -72,4 +73,87 @@ footer h3{
     background-color: rgba(255, 255, 255, 0.418);
     
 
+}
+
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+    body{
+    background-image: url(../img/luces-neon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.barra input{
+    margin: auto;
+}
+.contenedor-calculadora{
+    
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        background-image: url(../img/luces-neon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .barra input{
+        margin: auto;
+    }
+}
+/* Medium devices (landscape tablets, 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    body{
+        background-image: url(../img/luces-neon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+/* Largue devices ( landscape desktop, 1025px and 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    body{
+        background-image: url(../img/luces-neon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+
+@media (min-width: 1920px) {
+    body{
+        background-image: url(../img/luces-neon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+@media (max-width: 2560px) {
+    body{
+        background-image: url(../img/luces-neon.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+@media (min-width: 2561px) and (max-width: 3840px) {
+  /* Estilos para pantallas con una anchura entre 2561px y 3840px */
+}
+
+@media (min-width: 3841px) {
+  /* Estilos para pantallas con una anchura de al menos 3841px */
 }
